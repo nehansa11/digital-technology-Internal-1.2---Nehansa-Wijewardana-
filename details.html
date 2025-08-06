@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Page</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/popup.js" defer></script>
+</head>
+<body>
+<div class="main-content-area">
+    <!-- Main popup -->
+    <div class="popup-overlay">
+        <div class="popup-box coming-soon">
+            <h2>Coming soon...</h2>
+            <p>This feature will be coming soon.</p>
+            <button class="close-popup-btn submit-button">Close</button>
+        </div>
+    </div>
+
+    <!--TOP NAVIGATION-->
+    <div class="top-navigation">
+        <header>
+            <div class="logo">
+                <img alt="Logo RivetedReads" src="images/logo.png">
+            </div>
+            <ul class="links">
+                <li>
+                    <a class="active-menu" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="search.html">Browse</a>
+                </li>
+                <li>
+                    <a class="open-popup-btn" href="#">My Account</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <div class="body-content">
+        <!--Search bar-->
+        <div class="search-wrapper">
+            <h1>Review Search</h1>
+            <label for="search">Real reviews from real teen readers - discover what your pees are saying!</label>
+            <input type="search" id="search" class="open-popup-btn book-search-input" placeholder="Search reviews by reviewer name...." data-search>
+        </div>
+        <!--Book details container-->
+        <div class="book-container">
+            <div class="book-main-image">
+                <img alt="The Starlight Chronicles Book Cover Image" src="images/63272784.jpg">
+                <div class="book-rates">
+                    <span class="fa fa-star yellow"></span>
+                    <span class="fa fa-star yellow"></span>
+                    <span class="fa fa-star yellow"></span>
+                    <span class="fa fa-star yellow"></span>
+                    <span class="fa fa-star gray"></span>
+                    <span class="rating-number">4.3 (470 reviews)</span>
+                </div>
+            </div>
+            <div class="book-info">
+                <h3 class="name">The Starlight Chronicles </h3>
+                <div class="grade">By C.S Johnson</div>
+                <p class="description">
+                    The Starlight Chronicles is an epic fantasy adventure series written by C.S. Johnson. The main character is Hamilton Dinger, a teenage boy who lives in a city called Apollo City.
+                    <br><br>
+                    At the start of the series, Hamilton is a typical high school student. He is good at sports, popular, and a bit full of himself. He doesn’t care much about others and mostly thinks about his own life. But everything changes when a meteor crashes into the city and strange, dangerous things start happening.
+                    <br><br>
+                    The meteor brings evil creatures called the Seven Deadly Sinisters. They are powerful monsters that represent the seven deadly sins, like pride, greed, and anger. Hamilton finds out that he has been chosen to become a Star—a magical warrior with special powers. He is now responsible for fighting the Sinisters and protecting his city from destruction.
+                    <br><br>
+                    At first, he doesn't want to accept this duty, but over time, he starts to take it seriously and becomes a real hero. Along the way, Hamilton is helped by a magical talking dragon named Elysian and a mysterious warrior named Starry Knight. These characters help guide him and teach him how to use his powers.
+                    <br><br>
+                    Hamilton also has to deal with normal teenage problems like school, friends, his internship, and relationships, all while hiding his secret identity as a Star.
+                    <br><br>
+                    The series is full of exciting battles, interesting characters, and emotional moments. It is not just about magic and fighting—it’s also about growing up, making good choices, and learning to care about others.
+                    <br><br>
+                    Hamilton changes a lot during the series. He starts off selfish and arrogant, but by the end, he becomes brave, loyal, and kind. His journey shows that anyone can change and become better if they try.
+                    <br><br>
+                    This series is a mix of fantasy, superhero action, and coming-of-age drama. It has humor, mystery, and lots of magical twists. If you enjoy stories about heroes, dragons, and saving the world, The Starlight Chronicles is a great book to read.
+                    <br><br>
+                    It teaches readers about courage, friendship, and the importance of doing the right thing, even when it’s hard.
+                </p>
+            </div>
+        </div>
+        <!--Write a review section-->
+        <div class="write-a-review">
+            <form class="review-form write-a-review-details-page">
+                <h2>Write a Review</h2>
+                <div class="review-text">
+                    <label for="review">Select Stars:</label>
+                </div>
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 stars">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star">&#9733;</label>
+                </div>
+                <div class="review-text">
+                    <label for="review">Your Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="review-text">
+                    <label for="review">Your Review:</label>
+                    <textarea id="review" name="review" rows="5" placeholder="Share your thoughts..."></textarea>
+                </div>
+                <button type="button" class="submit-button open-popup-btn">Submit Review</button>
+            </form>
+        </div>
+        <div class="book-reviews-container">
+            <div class="review-wrapper">
+                <div class="review-card">
+                    <img src="images/butterfly.jpg" class="avatar">
+                    <div class="user-info">
+                        <h3 class="name">Sarah M.</h3>
+                        <div class="grade">Grade 11</div>
+                        <div class="book-rates">
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star gray"></span>
+                            <span class="rating-number">4.3 (470 reviews)</span>
+                        </div>
+                        <p class="description">I really enjoyed reading The Starlight Chronicles because it had a lot of action and adventure. I liked how Hamilton started off being selfish but slowly changed into a real hero. The battles with the Sinisters were exciting, and the magical powers were cool. Sometimes the story was a bit confusing with all the fantasy stuff, but overall, it kept me interested. I would recommend it to people who like superheroes and fantasy stories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-wrapper">
+                <div class="review-card">
+                    <img src="images/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" class="avatar">
+                    <div class="user-info">
+                        <h3 class="name">Tommy U.</h3>
+                        <div class="grade">Grade 11</div>
+                        <div class="book-rates">
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star gray"></span>
+                            <span class="rating-number">4.3 (470 reviews)</span>
+                        </div>
+                        <p class="description">This series was fun to read, and I liked the mix of real-life problems and magical stuff. Hamilton felt like a real teenager, even though he had powers. I liked the character Starry Knight because she was mysterious and strong. Some parts were a little slow, but the action scenes made up for it. It also had a good message about learning to care about others and doing what’s right.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-wrapper">
+                <div class="review-card">
+                    <img src="images/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" class="avatar">
+                    <div class="user-info">
+                        <h3 class="name">Valeri I.</h3>
+                        <div class="grade">Grade 11</div>
+                        <div class="book-rates">
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star yellow"></span>
+                            <span class="fa fa-star gray"></span>
+                            <span class="rating-number">4.3 (470 reviews)</span>
+                        </div>
+                        <p class="description">The Starlight Chronicles is a good series for people who enjoy fantasy. At first, I didn’t think I would like it because Hamilton seemed annoying, but he grew on me. The story got better with each book, and I liked the teamwork between the characters. The writing style was funny sometimes, which made it easier to read. I think it would be a great movie or TV show too.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <!--Footer main links-->
+            <ul class="links-footer">
+                <li>
+                    <a href="#">Privacy Statement</a>
+                </li>
+                <li>
+                    <a href="#">Terms of Use</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+            <!--Footer photo credit section-->
+            <div class="photo-credit">Photo credit:
+                <span>
+                <a href="https://www.lawrencepatchett.com/" target="_blank">coming-soon</a>
+            </span>
+                <span>
+                <a href="https://www.goodreads.com/" target="_blank">goodreads.com</a>
+            </span>
+                <span>
+                <a href="https://www.amazon.com.au/" target="_blank">Amazon</a>
+            </span>
+                <span>
+                <a href="https://www.flickr.com/" target="_blank">flickr</a>
+            </span>
+                <span>
+                <a href="https://nz.pinterest.com/" target="_blank">Pinterest</a>
+            </span>
+                <span>
+                <a href="https://www.canva.com/en_gb/" target="_blank">Canva.com</a>
+            </span>
+            </div>
+            <!--Footer copyrights-->
+            <div class="copyright">Copyright © 2025. All rights reserved.</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
