@@ -65,7 +65,7 @@ const json_content = [
     {
         "title": "The Summer of Broken Rules",
         "author": "K.L Walther",
-        "description": "Its all fun and games.. until someone loses their heart ...",
+        "description": "It's all fun and games until someone loses their heart A romance novel ...",
         "image": "images/81R9VPGFqTL._SL1500_.jpg",
         "reviews": "4.3 (450 reviews)"
     },
