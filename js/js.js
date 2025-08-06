@@ -85,7 +85,6 @@ const json_content = [
     },
 ];
 
-// Fetch the book data from an online API
 // Load book cards from the local JSON data
 books = json_content.map(book => {
     // Clone the template element

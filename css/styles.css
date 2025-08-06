@@ -19,13 +19,7 @@ body {
     position:relative;
 }
 
-.bg_image img {
-    /*visibility: hidden;*/
-}
-
 .banner-content {
-    /*position: absolute;
-    top:30%;*/
     padding-top: 8%;
 }
 
@@ -76,7 +70,7 @@ body {
     background-size: 10% auto;
     background-image: url("../images/search.svg");
 }
-
+/*common logo*/
 .logo{
     text-align: left;
     float: left;
@@ -202,100 +196,6 @@ body {
     float: left;
     width: 50%;
 }
-
-/*.trending {
-    background-color: #e5e5e5;
-    padding: 2px 0 20px 0;
-    text-align: center;
-    margin-bottom: 30px;
-    width: 100%;
-    display: inline-block;
-}
-
-.trending div{
-    float: left;
-    width: 33%;
-    border: 1px solid red;
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-.trending-books {
-    text-align: center;
-    padding: 0;
-}
-
-.trending-books li {
-    width: 28%;
-    text-align: left;
-    margin: 10px;
-    background-color: #ffffff;
-    padding: 20px;
-    line-height: 1.5;
-    display: inline-block;
-}*/
-
-
-/*.book-add-to-list a {
-    color: #ffffff;
-    text-decoration: none;
-}
-.rating-number {
-    font-size: 11px;
-}*/
-
-/*.community {
-    background-color: #e5e5e5;
-    padding: 2px 0 2px 0;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.community-review {
-    text-align: center;
-    padding: 0;
-}
-.community-review li {
-    width: 28%;
-    text-align: left;
-    margin: 10px;
-    display: inline-table;
-    background-color: #ffffff;
-    padding: 20px;
-    height: 155px;
-    line-height: 1.5;
-}
-.review-image {
-    border: 0;
-    border-radius: 50%;
-    text-align: right;
-    margin: auto;
-    width: 50px;
-    overflow:hidden;
-    float: left;
-}
-.review-image img {
-    display: block;
-    width: 50px;
-    height: 50px;
-}
-.review-person{
-    float: right;
-    width: 80%;
-    margin-top: 10px;
-}
-.review-name {
-    font-weight: bold;
-}
-.review-grade{
-    font-size: 14px;
-}
-.review-rating{
-    clear: both;
-    width: 100%;
-}*/
 
 /*Common for books grid*/
 .container{
