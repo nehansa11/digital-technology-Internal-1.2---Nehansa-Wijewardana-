@@ -78,7 +78,6 @@ body {
 }
 
 .header {
-    display: inline-block;
     float: left;
 }
 
@@ -251,9 +250,7 @@ body {
     font-size: 12px;
     color: #888686;
 }
-.book-short-description {
 
-}
 .book-add-to-list {
     width: 145px;
     border: 1px solid #ffffff;
@@ -340,9 +337,7 @@ body {
     font-size: 14px;
     color: #666666;
 }
-.description {
 
-}
 .book-main-image {
     text-align: center;
     margin: auto;
@@ -458,12 +453,11 @@ body {
     background-color: #9d53df;
     margin-bottom: 20px;
 }
-.search-wrapper h1 {
-    color: #ffffff;
-}
+.search-wrapper h1,
 .search-wrapper label {
     color: #ffffff;
 }
+
 .book-search-input {
     width: 80%;
     padding: 5px;
