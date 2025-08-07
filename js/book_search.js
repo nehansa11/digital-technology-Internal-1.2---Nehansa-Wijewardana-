@@ -31,56 +31,56 @@ const json_content = [
         "title": "The boy in the Stripped Pyjamas",
         "author": "John Boyne",
         "description": "Two boys become very good friends. But why is Shmuel in the camp...",
-        "image": "images/9781909531192.jpg",
+        "image": "images/the_boy_in_the_striped_pijamas.jpg",
         "reviews": "4.8 (470 reviews)"
     },
     {
         "title": "The Starlight Chronicles",
         "author": "Sarah Matthews",
         "description": "A captivating fantasy adventure about friendship and courage in...",
-        "image": "images/63272784.jpg",
+        "image": "images/the_starlight_chronicles.jpg",
         "reviews": "4.6 (380 reviews)"
     },
     {
         "title": "Murder, Mystics, and Menopause",
         "author": "Theresa Crater",
         "description": "A lighthearter, supernatural book in with clever puzzles!...",
-        "image": "images/81DcDpVaveL._SL1500_.jpg",
+        "image": "images/murder_mistics.jpg",
         "reviews": "4.3 (366 reviews)"
     },
     {
         "title": "Red Lily",
         "author": "Janice Graham",
         "description": "Paris 1989, A cold war ending, a new family is beginning, and one dog ...",
-        "image": "images/71JELPl8kQL._SL1500_.jpg",
+        "image": "images/red_lily.jpg",
         "reviews": "4.6 (323 reviews)"
     },
     {
         "title": "The Sword of Kaigen",
         "author": "M.L Wang",
         "description": "Better to die sharp in war than rust through a time of peace...",
-        "image": "images/71CrKDOkS2L._SL1500_.jpg",
+        "image": "images/the_sward_of_kaigen.jpg",
         "reviews": "4.6 (311 reviews)"
     },
     {
         "title": "The Summer of Broken Rules",
         "author": "K.L Walther",
         "description": "It's all fun and games until someone loses their heart A romance novel ...",
-        "image": "images/81R9VPGFqTL._SL1500_.jpg",
+        "image": "images/summer_of_broken_rules.jpg",
         "reviews": "4.3 (450 reviews)"
     },
     {
         "title": "Five Survive",
         "author": "Holly Jackson",
         "description": "Eighteen year old Red and her friends are on a road trip in...",
-        "image": "images/81nfHds5U4L._SL1500_.jpg",
+        "image": "images/five_six_friends_survive.jpg",
         "reviews": "4.6 (460 reviews)"
     },
     {
         "title": "The Boy who harnessed the wind",
         "author": "William Kamlwamba and Bryan Mealer",
         "description": "An inspiring true story of a Malawi teenagers who is a hero ...",
-        "image": "images/915zPMuOWVL._SL1500_.jpg",
+        "image": "images/the_boy_who_harnesses_the_wind.jpg",
         "reviews": "4.6 (540 reviews)"
     },
 ];

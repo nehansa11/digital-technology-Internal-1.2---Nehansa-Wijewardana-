@@ -106,7 +106,7 @@ body {
 }
 
 .active-menu {
-    color: #6467F2;
+    color: #6467F2 !important; 
 }
 
 .links a:hover {
@@ -156,7 +156,7 @@ body {
 
 /*Footer*/
 .footer {
-    height: 40px;
+    height: 60px;
     font-size: 12px;
     background: #000000;
     text-align: center;
@@ -194,7 +194,7 @@ body {
 .photo-credit {
     padding-top: 10px;
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 /*Common for books grid*/
@@ -289,7 +289,6 @@ body {
     float: left;
     border: 1px solid #888686;
     margin: auto;
-    margin-left: 30px;
     height: 24px;
     color: #ffffff;
     padding: 0 10px;
@@ -348,7 +347,6 @@ body {
     text-align: center;
     margin: auto;
     width: 350px;
-    overflow:hidden;
 }
 .book-main-image img {
     display: block;
